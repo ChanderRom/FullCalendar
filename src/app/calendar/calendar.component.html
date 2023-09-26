@@ -1,7 +1,7 @@
 <full-calendar [options]="calendarOptions"
     *ngIf="calendarOptions"
     #fullcalendar
-    class="container h-100">
+    class="container h-100 p-2">
 
     <ng-template #eventContent let-arg>
     <b>{{ arg.event.title }}</b> - {{ arg.event.start.getDate() }}
